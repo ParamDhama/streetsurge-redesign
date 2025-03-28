@@ -1,19 +1,17 @@
-// src/App.jsx
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-// Import other sections as needed
+import Home from './pages/Home';
+import IntroPanel from './components/IntroPanel';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <About />
-      {/* Add additional sections here */}
+      <IntroPanel/>
+      <div>
+        
+      </div>
+      <Home />
     </div>
   );
-}
+};
 
 export default App;

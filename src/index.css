@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #1a202c; /* Tailwind gray-900 */
+    border-radius: 4px;
+  }
+  
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #1a202c transparent;
+  }
+  
